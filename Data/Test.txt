@@ -1,0 +1,3 @@
+Numéro;Nom;Prénom;Salaire brut;Taux de commission;
+1;Dupont;Philippe;3000;12;
+2;Durant;Jacques;2000;5;

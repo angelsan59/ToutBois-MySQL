@@ -1,0 +1,92 @@
+SO 17-08-16 STRATEGIE DE CREATION
+
+Attaque sur deux fronts:
+    - Design côté Utilisateur
+    - Classes outils pour définir les relations d'héritage entre les représentants, clients, prospects, etc...
+
++ Création de la partie "enregistrement" sur fichier texte : un par type (clients, représentants, prospects), données séparées par ;
+
+Design : page principale
+                -> menu déroulant -> différentes fenêtres/formulaires
+                -> présentation de départ
+
+----------------------------------------------------------------------------
+
+SO 18-08-16 CHOSES A NE PAS OUBLIER
+
+Passer les données du fichier aux tableaux pour les manipuler -> considérer le tri par une collection de type "Arrays"
+
+Un formulaire unique pour ajouter, modifier et supprimer, avec affichage de la liste de tous les représentants, clients ou prospects.
+
+Saisir caractères dans le formulaire
+        -> recherche dans la liste
+        -> remplissage du formulaire
+        -> selection (en surligné) d'une ligne dans la liste -> un clic remplit le formulaire avec les données.
+
+Passage de Prénom et Nom en 1e majuscule
+
+Vérification (validation) :
+        -> tous les champs remplis
+        -> format des champs
+        -> si le numéro du représentant/client existe:
+                -> oui -> modifier
+                -> non -> ajouter
+
+Le numéro du nouveau représentant/client incrémenté automatiquement
+
+Pop up de confirmation à la suppression
+
+Pour remplir la liste à afficher, passer les données du fichier en tableau au préalable (jList1)
+
+Comment passer d'un champ à l'autre en tapant tab?
+
+---------------------------------------------------------------------------
+
+SO 19-08-16 Ai fait
+
+Formulaire ADD rep : addition et string
+Formulaire Addclient : constructeurs des classes clients et societe, début champs dans le formulaire
+
+---------------------------------------------------------------------------
+
+San 25-08-16
+
+- changement de fenetre principale à fenetreprincipaleframe
+- mise des fenêtres en centré par rapport à l'écran
+- design fenetreprincipaleframe et autres fenêtres
+
+Idée : un prospect peut devenir client, il serait bien de pouvoir transférer sa "fiche" dans les clients
+
+Légalement, on ne peut pas supprimer un client, ne fut-ce que pour les archives et les factures. Par contre, on pourrait "désactiver" les clients qui ne commandent plus
+
+------------------------------------------------------------------------------
+
+San 29-08-16
+
+début document de maquettage IHM
+
+----------------------------------------------------------------------------
+
+San 30-08-16
+
+Résolu le problème de chemin du logo des fenêtres. Utilisation de Bufferedimage à la place de Toolkit. Ce qui a nécessité des throws IO exceptions et try/catch plus loin dans le code des fenêtres, là où il y a un appel des classes du nom de la fenêtre.
+
+Remplacement du champ "pays" des formulaires par un menu déroulant avec les pays "préférés" en premier, et la liste complète des pays ensuite
+
+- Utilisation GIT (partage de fichiers dan sun projet entre personnes)
+
+- inscription à github.Com
+- creation du repository SOCToutBois
+- ajout des fichiers mmis à jour par commit puis remote push
+- modification des détails "enseigne"
+
+----------------------------------------------------------------------------
+
+Sec 01-09-16
+
+Attention lors de la recherche dans un tableau "Vector", pensez a la possibilité de plusieurs cas identiques...
+
+SAN
+
+Ajout d'un module de recherche ?
+Au lieu d'effacer le champs date lors d'une modif erronée, remettre l'ancienne date.

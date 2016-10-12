@@ -1,0 +1,17 @@
+Actif;Numéro;Nom;Prénom;Salaire brut;Taux de commission
+Non;1;toto3;tutut1;2000;2
+Oui;2;toto1;tutu1;4000;12
+Oui;3;test;test1;33333;5
+Oui;4;stephane;tess;1000;5
+Non;5;stephane;tete;1000;5
+Non;6;test;test1;33333;5
+Oui;7;New;Me;1500;3
+Oui;8;Pearl;Laurence;7000;4
+Non;9;test;test4;2000;10
+Oui;10;New;Mani;1000;10
+Non;11;New;Boy;5000;8
+Non;12;New;Boy;5000;7
+Oui;13;moi ;encore 2;4000;2
+Oui;14;Chipette;Jenna;7777777;7777777
+Oui;15;15;15;15;15
+Oui;16;16;16;16;16

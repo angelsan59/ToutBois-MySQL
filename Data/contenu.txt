@@ -1,0 +1,4 @@
+numero;Nom;Prenom;Enseigne
+1;Dupont;Albert;SA Dupont
+2;Durant;Seb;SA SEB
+3;Claus;Kraut;CK SA

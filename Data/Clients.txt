@@ -1,0 +1,7 @@
+﻿Actif;Numéro;Nom de l'enseigne;SIRET;Dernière visite;Adresse;Complément;Code Postal;Ville;Pays;Nom;Prénom;Tel Fixe;Tel Portable;Email;Nb commandes
+Oui;1;SA Super Meubles;01234569874215;02/06/2016;10 rue d'Alsace 1000; ;59370;Marly Gaumont;France;Durant;Maité;0320454175;0612458756;a@f.com;10
+Oui;2;IKEA;15475324685125;14/05/2015;rue carrefour; ;59810;Lomme;France;Dupont;Thérèse;0320458569;0785341526;deb@ikea.fr;2
+Oui;3;Conforama;75421586452147;09/08/2016;rue de la convention;complément d'adresse;59450;Villeneuve d'ascq;null;Faraut;Kevin;07158793;0320154875;kfaraut@gmail.com;0
+Oui;4;test1;45214578542158;05/04/2016;numero, nom de rue;complément d'adresse;54187;moi;France;fg;dfg;sdf;drgf;dfg@sdf;0
+Oui;5;test2;784;10/12/2015;qsedf;qsdfr;dsqf;qsdfr;Suisse;qsdf;qsdf;sqdf;dsf;qsdf@ds;0
+Oui;6;Confortfort;456;jj/mm/aaaa;numero, nom de rue;complément d'adresse;59120;dqfg;Belgique;dfg;fghfdguyi;574;5646;sqgfr@fg;0
